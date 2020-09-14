@@ -52,3 +52,7 @@ production:
   database: furima_28808_id_production
   username: furima_28808_id
   password: <%= ENV['FURIMA_28808_ID_DATABASE_PASSWORD'] %>
+
+group :development do
+  gem 'rubocop', require: false
+end
